@@ -1,7 +1,6 @@
-import React from "react";
-import PrimaryButton from "./PrimaryButton";
 import styled from "styled-components";
 import { theme } from "../../theme";
+import PrimaryButton from "./PrimaryButton";
 
 export default function Card({ title, imageSource, leftDescription }) {
   return (

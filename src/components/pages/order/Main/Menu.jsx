@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import styled from "styled-components";
 import { fakeMenu2 } from "../../../../fakeData/fakeMenu";
@@ -7,7 +6,7 @@ import { formatPrice } from "../../../../utils/maths";
 import Card from "../../../reusable-ui/Card";
 
 export default function Menu() {
-  const [menu, setmenu] = useState(fakeMenu2);
+  const [menu, setMenu] = useState(fakeMenu2);
 
   return (
     <MenuStyled className="menu">
